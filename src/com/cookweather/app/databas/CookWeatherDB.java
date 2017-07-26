@@ -85,9 +85,9 @@ public List<City> loadCities(int provinceId){
 public void savaCounty(County county){
 	if(county!=null){
 		ContentValues values=new ContentValues();
-		values.put("city_name", county.getCountyName());
-		values.put("city_code", county.getCountyCode());
-		values.put("province_id", county.getCityId());
+		values.put("county_name", county.getCountyName());
+		values.put("county_code", county.getCountyCode());
+		values.put("city_id", county.getCityId());
 		databas.insert("County", null, values);	
 		}
 }
