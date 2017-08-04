@@ -2,8 +2,8 @@ package com.cookweather.app.model;
 
 public class Province {
 private int id;
-private String ProvinceName;
-private String ProvinceCode;
+private String provinceName;
+private String provinceCode;
 public int getId() {
 	return id;
 }
@@ -11,16 +11,16 @@ public void setId(int id) {
 	this.id = id;
 }
 public String getProvinceName() {
-	return ProvinceName;
+	return provinceName;
 }
 public void setProvinceName(String provinceName) {
-	ProvinceName = provinceName;
+	this.provinceName = provinceName;
 }
 public String getProvinceCode() {
-	return ProvinceCode;
+	return provinceCode;
 }
 public void setProvinceCode(String provinceCode) {
-	this.ProvinceCode = provinceCode;
+	this.provinceCode = provinceCode;
 }
 
 }

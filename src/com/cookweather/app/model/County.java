@@ -2,9 +2,9 @@ package com.cookweather.app.model;
 
 public class County {
 private int id;
-private String CountyName;
-private String CountyCode;
-private int CityId;
+private String countyName;
+private String countyCode;
+private int cityId;
 public int getId() {
 	return id;
 }
@@ -12,21 +12,21 @@ public void setId(int id) {
 	this.id = id;
 }
 public String getCountyName() {
-	return CountyName;
+	return countyName;
 }
 public void setCountyName(String countyName) {
-	CountyName = countyName;
+	this.countyName = countyName;
 }
 public String getCountyCode() {
-	return CountyCode;
+	return countyCode;
 }
 public void setCountyCode(String countyCode) {
-	CountyCode = countyCode;
+	this.countyCode = countyCode;
 }
 public int getCityId() {
-	return CityId;
+	return cityId;
 }
 public void setCityId(int cityId) {
-	this.CityId = cityId;
+	this.cityId = cityId;
 }
 }
